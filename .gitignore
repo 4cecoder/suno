@@ -1,0 +1,23 @@
+# Local Clone Ignore
+# Exclude model weights and generated content
+
+# ACE-Step 1.5 Subdirectory (since setup.sh clones it)
+ACE-Step-1.5/checkpoints/
+ACE-Step-1.5/gradio_outputs/
+ACE-Step-1.5/.venv/
+ACE-Step-1.5/.env
+
+# Local Logs and temporary files
+*.log
+.DS_Store
+*.flac
+*.wav
+*.mp3
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+EOF
